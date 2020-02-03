@@ -10,5 +10,3 @@
 git clone https://github.com/hong0980/luci-app-passwall.git
 git clone https://github.com/jikuohong/luci-app-serverchan.git
 
-./scripts/feeds update -a
-./scripts/feeds install -a
