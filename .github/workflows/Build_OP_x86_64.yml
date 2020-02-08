@@ -83,9 +83,6 @@ jobs:
         make download -j$(nproc)
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
-    - name: Clone passwall code
-      run: |
-        cd lede/package &&  git clone https://github.com/Lienol/openwrt-package.git   
 
     - name: Build firmware
       working-directory: ./openwrt
